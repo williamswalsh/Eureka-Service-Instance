@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: car_service
+    name: car-service
 
 server:
   port: 8081
