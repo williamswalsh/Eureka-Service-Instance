@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: car_service
+
+server:
+  port: 8081
+# port: 0 -> Randomly selects port -> no port collisions
+
+# Eureka Service Discovery - eureka.company.com -> not working
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://eureka.company.com:8761
